@@ -1,0 +1,161 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center;
+}
+
+.modal{
+    width: 384px;
+    height: 516px;
+    position: absolute;
+    top: 68px;
+    left: 283px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px 4px 24px 24px;
+    z-index: 100;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 50px 1px rgb(161, 159, 159); */
+}
+
+
+.body{
+    position: static;
+    width: 356px;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #fff;
+}
+
+.btnContainer{
+    position: static;
+    width: 356px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 16px;
+}
+
+.btnContainer :hover{
+    color: rgb(15, 181, 236);
+    cursor: pointer;
+}
+
+.btnContainer:nth-last-child(1) {
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #D9D9D9;
+}
+
+.svg{
+    width: 40px;
+    height: 40px;
+}
+
+
+.btn{
+    width: 282px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.title{
+    font-size: 16px;
+    color: #262626;
+    font-weight: 600px;
+}
+
+.btn>span{
+    font-size: 12px;
+    color: #262626;
+    font-weight: 400px;
+}
+
+
+.settingBtnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 0px 0px;
+
+    position: static;
+    width: 354px;
+    height: 36px;
+    left: 0px;
+    top: 432px;
+    border-top: 1px solid #D9D9D9;
+}
+.secondCntr{
+    position: static;
+    width: 138px;
+    height: 32px;
+    left: 0px;
+    top: 4px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px 0px 0px;
+}
+
+.settingSvg{
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 8px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border: none;
+    background-color: transparent; */
+
+}
+
+.settingBtn{
+    
+    cursor: pointer;
+    border: none;
+    background-color: transparent; 
+}
+
+.settingTitle{
+    position: static;
+    width: 102px;
+    height: 22px;
+    left: 36px;
+    top: 9px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #262626;
+
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+}

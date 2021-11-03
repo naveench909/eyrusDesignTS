@@ -1,0 +1,33 @@
+{
+  "name": "eyrusdesign",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "start:prod": "next start -p 80",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^4.16.13",
+    "babel-plugin-import": "^1.13.3",
+    "less": "^4.1.2",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.2",
+    "typescript": "^4.4.4"
+  }
+}

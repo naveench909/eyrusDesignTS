@@ -1,0 +1,8 @@
+.container{
+    position: absolute;
+    top: 64px;
+    left: 216px;
+    width: calc(100% - 216px);
+    height: calc(100vh - 64px);
+    background-color: #E5E5E5;
+}
